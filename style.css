@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/bg.jpeg);
+    user-select: none;
+    background-size: 100%;
+}
+.paper{
+    padding: 80px 125px;
+    position: absolute;
+    background-image: url(./images/paper.webp);
+    background-size: 500px;
+    background-position: center;
+    rotate: -5deg;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.5);
+    user-select: none;
+}
+.heart{
+    height: 200px;
+    width: 200px;
+    padding: 0 0 !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart>img{
+    padding: 0 0 !important;
+    height: 120px;
+    width: 120px;
+    opacity: 0.7;
+}
+
+p{
+    font-family: 'Zeyada';
+    font-size: 3rem;
+    color: blue;
+    font-weight: 700;
+    text-align: center;
+}
+.card{
+    width: 20%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+.card>p{
+    font-size: 2.5rem;
+    width: 215%;
+}
+.card>img{
+    width: 200%;
+    background-color: #fff;
+    padding: 20px;
+    user-select: none;
+}
+.pic{
+    width: 17rem;
+    padding: 20px !important;
+    user-select: none;
+}
+.pic>img{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    user-select: none;
+}
+.love{
+    color: #f00 !important;
+}
+.smy{
+    /* color: rgb(255, 100, 255) */
+    color: rgb(225, 0, 225);
+}
+.auth{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.auth>p{
+    font-size: 2rem;
+}
+.em{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.em1{
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+}
